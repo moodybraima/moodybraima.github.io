@@ -1,0 +1,84 @@
+
+
+h1, h2, h3, h4 {
+    color: #0170ff;
+  }
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the content */
+.content {
+  padding: 10px;
+  margin: 10px;  
+  background-color: #ddd;
+  color: black;
+  font-style: normal;
+}
+
+/* Style the footer */
+.footer {
+  bpadding: 10px;
+  margin: 10px;  
+  background-color: #424edc;
+  color: black;
+  font-style: normal;
+}
+
+/* Bootstrap 5 Breakpoints */
+#breakpoints::before {
+    content: "Extra Small mobile screens (<576px Portrait phones)" 
+    font-family: arial;
+    color: O#8B12FC; 
+    font-size: 20px;
+}
+
+/* Media Queries */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    #breakpoints: :before {
+        content: "Small screens and up (>576px Landscape phones) - 'sm'";
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    #breakpoints: :before {
+        content: "Medium screens and up (>768px Tablets) - 'md'";
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    #breakpoints::before {
+        content: "Large screens and up (>992px Desktops) - 'lg'";
+    }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    #breakpoints::before {
+        content: "Extra Large screens and up (>1200px Desktops) - 'xl'";
+    }
+}
+    
+.box {
+    margin: 15px 0;
+}
+
+.row {
+    min-height: 350px;
+    background-color: paleturquoise;
+}
+
+•col { 
+    background-color: bisque;
+    padding: 40px 20px;
+    border: 1px solid darkcyan;
+}
+
+
+
